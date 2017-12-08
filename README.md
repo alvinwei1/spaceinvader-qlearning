@@ -14,7 +14,7 @@ The code below takes Space Invaders as either a pixel image or RAM input for its
 usage: run.py [-h] -o OBSERVATION -a AGENT
 ```
 
-The ```AGENT``` argument is the type of reinforcement agent ```qlearn```, ```sarsa```, or ```appqlearn```), representing the Q-Learning, SARSA, and Approximate Q-Learning agents classes to use, respectively.
+The ```OBSERVATION``` argument is the observation input type (```pixel``` or ```ram```). The ```AGENT``` argument is the type of reinforcement agent ```qlearn```, ```sarsa```, or ```appqlearn```), representing the Q-Learning, SARSA, and Approximate Q-Learning agents classes to use, respectively.
 
 For instance, to run a Q-Learning agent taking Space Invaders as RAM input run:
 ```
