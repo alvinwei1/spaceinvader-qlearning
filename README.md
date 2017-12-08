@@ -11,7 +11,7 @@ pip install -r requirements.txt
 ## Running the tests
 The code below takes Space Invaders as either a pixel image or RAM input for its observations and trains one of three reinforcement learning agents to play the game. A directory is created containing a \verb|json| file of the episode lengths and rewards and \verb|mp4| files recording the simulation of the agent playing. To run the code use:
 ```
-usage: run.py [-h] -o OBSERVATION -a AGENT
+run.py [-h] -o OBSERVATION -a AGENT
 ```
 
 The ```OBSERVATION``` argument is the observation input type (```pixel``` or ```ram```). The ```AGENT``` argument is the type of reinforcement agent ```qlearn```, ```sarsa```, or ```appqlearn```), representing the Q-Learning, SARSA, and Approximate Q-Learning agents classes to use, respectively.
